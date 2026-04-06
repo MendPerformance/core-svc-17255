@@ -1,0 +1,26 @@
+name: Bug report
+description: Use this only if you are clearly reporting broken repository behavior.
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What broke, and where did you see it?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Share the smallest set of steps needed to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Maintainer impact
+      description: Explain how this affects triage, review, release, or contributor workflows.
+    validations:
+      required: true
